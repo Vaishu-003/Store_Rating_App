@@ -1,0 +1,88 @@
+/* Home.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: #fff;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 30px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navbar-links a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .navbar-links a:hover {
+    color: #00c6ff;
+  }
+  
+  /* Home content */
+  .home-content {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Buttons */
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn.blue {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn.green {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn.yellow {
+    background-color: #ffc107;
+    color: black;
+  }
+  
